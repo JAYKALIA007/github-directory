@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 const fetchRepoDirectory = async (repoName: string) => {
   const url = `https://api.github.com/repos/JAYKALIA007/${repoName}/contents`;

@@ -6,7 +6,7 @@ import Header from "./components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gihtub Directory | Home",
+  title: "Github Directory | Home",
   description: "Welcome to the github disrectory home-page",
   keywords: ["github", "github-user", "github-directory"],
 };

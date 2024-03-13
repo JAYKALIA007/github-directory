@@ -17,7 +17,6 @@ const RepoDetails = async ({ repoName }: { repoName: string }) => {
       <Link className="hover:underline text-sm" href="/repos">
         Back to repos
       </Link>
-      {/* <pre className="">{JSON.stringify(repoDetails, undefined, 2)}</pre> */}
       <p>{repoDetails.name}</p>
       <p>{repoDetails.full_name}</p>
       <p>{repoDetails.description}</p>
